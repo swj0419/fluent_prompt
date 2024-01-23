@@ -1,0 +1,2 @@
+{"placeholder": "text_a"} It was {"mask"}
+{"placeholder": "text_a"} {"mask"}

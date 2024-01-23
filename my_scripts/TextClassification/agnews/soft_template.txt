@@ -1,0 +1,3 @@
+{"placeholder": "text_a"} {"placeholder": "text_b"} It is about {"mask"} . 
+{"placeholder": "text_a"} {"placeholder": "text_b"} {"mask"}
+Given a news article, classify the article's topic to four classes: politics, sports,  business, technology. {"placeholder": "text_a"} {"placeholder": "text_b"} It is about {"mask"} . 

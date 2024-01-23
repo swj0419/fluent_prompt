@@ -1,0 +1,2 @@
+{"placeholder": "text_a"} Question: Does this imply that {"placeholder": "text_b"}? Yes, no, or maybe? ||| {"mask"}
+{"placeholder":"text_a"} {"placeholder":"text_b"} {"mask"}
