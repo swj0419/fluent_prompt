@@ -13,7 +13,7 @@ pip install -r requirements.txt
 Write a yaml config file is a yaml file that specifies the hyperparameters and dataset for training. See `my_experiments/agnews_gpt2style_headprompt.yaml` for an example.
 
 
-#### Run the training script
+#### Run the training script and evaluate the model
 The training script is `my_experiments/cli.py`. It takes the following arguments: 
 - `--config_yaml`: the path to the config yaml file
 - `--my_experiment_subdir`: the path to the output directory
