@@ -19,10 +19,10 @@ The training script is `my_experiments/cli.py`. It takes the following arguments
 - `--my_experiment_subdir`: the path to the output directory
 - `--my_plm_name_or_path`: the name or path of the pretrained language model. We use `gpt2-large` in our experiments.
 - `--project_prompt_embeds_interval`: the interval of projecting the prompt embeddings to tokens.
-- `--project_prompt_embeds_temp`: ？
-- `--objective_prompt_labels_temp`: ？
+- `--project_prompt_embeds_temp`: 
+- `--objective_prompt_labels_temp`:
 - `--ppl_loss_lambda`: the weight of the perplexity loss.
-- `--prompt_lr`: ？
+- `--prompt_lr`: the prompt learning rate
 - `--noise_start_value`: the start value of the noise.
 - `--noise_end_value`: the end value of the noise.
 - `--prompt_num_tokens`: the number of tokens in the prompt.
