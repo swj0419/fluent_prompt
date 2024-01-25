@@ -1,5 +1,6 @@
 # fluent_prompt
 Code for Toward Human Readable Prompt Tuning
+* Our code structure borrows from [OpenPrompt](https://github.com/thunlp/OpenPrompt).
 
 
 ### Installing the dependencies
@@ -18,9 +19,8 @@ The training script is `my_experiments/cli.py`. It takes the following arguments
 - `--config_yaml`: the path to the config yaml file
 - `--my_experiment_subdir`: the path to the output directory
 - `--my_plm_name_or_path`: the name or path of the pretrained language model. We use `gpt2-large` in our experiments.
-- `--project_prompt_embeds_interval`: the interval of projecting the prompt embeddings to tokens.
-- `--project_prompt_embeds_temp`: 
-- `--objective_prompt_labels_temp`:
+- `--project_prompt_embeds_interval`: the interval of projecting the prompt embeddings to tokens (i.e., existing embeddings in the embedding table).
+- `--project_prompt_embeds_temp`: temp towards `0` means an one-hot projection, temp towards `+inf` means a uniform projection, see [here](https://github.com/swj0419/fluent_prompt/blob/494047e8a498abd709eb190c3cc04728004b1262/openprompt/prompts/soft_template.py#L134) for details.
 - `--ppl_loss_lambda`: the weight of the perplexity loss.
 - `--prompt_lr`: the prompt learning rate
 - `--noise_start_value`: the start value of the noise.
